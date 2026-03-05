@@ -1,0 +1,30 @@
+u are required to build and containerize a simple Machine Learning application 
+using Linear Regression in Python.
+The application should predict salary based on years of experience using a 
+small sample dataset. The entire project must run inside a Docker container.
+
+
+A company wants to estimate an employee’s salary based on years of experience.
+You are given the following dataset:
+
+Years of Experience	  Salary (in lakhs)
+-------------------  --------------------
+1						3
+2						5
+3						7
+4						9
+5						11
+
+The company wants to predict the salary for 6 years of experience.
+
+folder structure
+----------------------------
+docker_lr/
+│
+├── app.py
+├── requirements.txt
+└── Dockerfile
+
+Expected output:
+------------------------------
+Predicted salary for 6 years experience: 13.0
