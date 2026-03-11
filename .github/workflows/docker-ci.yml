@@ -23,3 +23,7 @@ jobs:
 
       - name: Run Docker Container
         run: docker run ml-devops-demo
+
+      - name: Run Tests
+        run: pytest
+      
